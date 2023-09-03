@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8269792b-0f08-4995-9a2f-086b4eaa7a30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vege/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/templates/recipes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2UhpvCMejz42CaLdfPp87G6mz3q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +39,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/dhruv/Code/BackEnd/Django/youtube/firstProject"
+    "last_opened_file_path": "/Users/dhruv/Code/BackEnd/Django/youtube/firstProject",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,5 +53,16 @@
       <updated>1693401894339</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
