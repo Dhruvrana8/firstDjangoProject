@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8269792b-0f08-4995-9a2f-086b4eaa7a30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vege/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/templates/recipes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vege/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vege/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vege/templates/recipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/vege/templates/recipes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vege/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vege/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +23,16 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2UhpvCMejz42CaLdfPp87G6mz3q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/Users/dhruv/Code/BackEnd/Django/youtube/firstProject",
