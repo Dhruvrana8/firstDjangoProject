@@ -33,6 +33,7 @@
         <th scope="col">Recipe Name</th>
         <th scope="col">Recipe Descriptions</th>
         <th scope="col">Recipe Image</th>
+        <th scope="col">Operations</th>
       </tr>
     </thead>
     <tbody>
@@ -44,9 +45,12 @@
         <td>
           <img src="/media/{{recipe.recipe_image}}/" style="height: 200px" />
         </td>
-        <td>
-          <a href="/delete_recipe/{{recipe.id}}/" class="btn btn-danger"
+        <td class="align-content-center">
+          <a href="/delete_recipe/{{recipe.id}}/" class="btn btn-danger mb-2"
             >Delete</a
+          >
+          <a href="/update_recipe/{{recipe.id}}/" class="btn btn-success"
+            >Update</a
           >
         </td>
       </tr>
