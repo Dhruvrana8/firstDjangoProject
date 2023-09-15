@@ -16,17 +16,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from home.views import *
 from vege.views import *
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path('', home, name='home'),
+    # AUTH URLS
+    path('sign-up/', sign_up, name='sign_up'),
+    path('', login, name='login'),
+
+    # RECIPES URL
     path('recipes/', recipes, name='recipes'),
     path('delete_recipe/<id>/', delete_recipe, name='delete_recipe'),
     path('update_recipe/<id>/', update_recipe, name='update_recipe'),
+
     path('admin/', admin.site.urls),
 ]
 
