@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from .models import *
 from django.http import HttpResponse
 from django.contrib.auth.models import User
+from django.contrib import messages
+from django.contrib.auth import authenticate, login, logout
 
 # Create your views here.
 
@@ -63,8 +65,33 @@ def update_recipe(request, id):
     return render(request, 'update_recipe.html', context)
 
 
-def login(request):
+def login_page(request):
+    if request.method == "POST":
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        print('password: ', password)
+
+        if not User.objects.filter(username=username).exists():
+            print('User.objects.filter(username=username).exists(): ',
+                  User.objects.filter(username=username).exists())
+            messages.info(request, "Username does not exist")
+            return redirect('/login/')
+
+        user = authenticate(username=username, password=password)
+        if user is None:
+            messages.error(request, "Invalid Password ")
+            return render('/login/')
+        else:
+            login(request, user)
+            print('login: ', login)
+            return redirect('/recipes/')
+
     return render(request, 'login.html')
+
+
+def logout_page(request):
+    logout(request)
+    return redirect('/')
 
 
 def sign_up(request):

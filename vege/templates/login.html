@@ -5,6 +5,7 @@
   method="post"
   enctype="multipart/form-data"
 >
+  {% csrf_token%}
   <h2>Login Screen</h2>
   <p>Please enter your login credentials</p>
   <div class="form-group">
