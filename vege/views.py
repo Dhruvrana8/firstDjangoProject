@@ -75,7 +75,7 @@ def login_page(request):
             print('User.objects.filter(username=username).exists(): ',
                   User.objects.filter(username=username).exists())
             messages.info(request, "Username does not exist")
-            return redirect('/login/')
+            return redirect('/')
 
         user = authenticate(username=username, password=password)
         if user is None:
